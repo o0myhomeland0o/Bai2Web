@@ -74,58 +74,47 @@ node "D:\nodejs\nodered\node_modules\node-red\red.js" -u "D:\nodejs\nodered\work
 
 # Bài làm:  
 2.1. Cài đặt Apache web server:  
-
 Vô hiệu hóa IIS:  
+<img width="457" height="131" alt="image" src="https://github.com/user-attachments/assets/e83d9f85-30a1-4304-9efa-9492847fc3c7" />
 
-Tải Apache về và giải nén ra ổ D ( ở đây em giải nén ra ổ G):  
+Tải Apache về và giải nén ra ổ D :  
+<img width="977" height="249" alt="image" src="https://github.com/user-attachments/assets/8841e61f-c5a5-446b-b38c-6c39d8d7f3e2" />
 
-Cấu hình file D:\Apache24\conf\httpd.conf:  
+Để cấu hình file httpd.conf ta mở Notepad và open file đó và chỉnh sửa:  
+<img width="425" height="99" alt="image" src="https://github.com/user-attachments/assets/46fb0061-3e82-4524-ae77-e4aa1158701c" />  
+<img width="818" height="261" alt="image" src="https://github.com/user-attachments/assets/908932fc-b5d8-41d5-ae60-8b869facd501" />  
 
-Cấu hình file D:Apache24\conf\extra\httpd-vhosts.conf:    
+Cấu hình file httpd-vhosts.conf tương tự như làm với file trên:  
+<img width="647" height="219" alt="image" src="https://github.com/user-attachments/assets/2177682a-1aec-4118-acce-514dbfee8cd4" />
 
 Tạo 1 thư mục chứa code web (html,css,js) trong thư mục Apache24:   
+<img width="752" height="155" alt="image" src="https://github.com/user-attachments/assets/8dc73d58-b399-40fe-8bae-b8dfe5c19ce8" />
 
 Sử dung Nodepad chạy quyền Admin mở vị trí file c:\WINDOWS\SYSTEM32\Drivers\etc\hosts để fake ip 127.0.0.1 cho domain:   
+<img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/069b788f-95de-40ec-ac0b-7be40e3668ff" />
 
-Thao tác các dòng lệnh trên file D:\Apache24\bin\httpd.exe và khởi đồng web server Apache:   
+Thao tác các dòng lệnh trên file D:\BT\New\Apache24\bin\httpd.exe và khởi đồng web server Apache:   
+<img width="710" height="286" alt="image" src="https://github.com/user-attachments/assets/b91eeda4-1ad9-4db4-b28a-9bf3de0bc301" />
+<img width="311" height="144" alt="image" src="https://github.com/user-attachments/assets/7a3577f0-bdfb-4a24-abd4-a33ca36b5868" />
 
 2.2. Cài đặt nodejs và nodered => Dùng làm backend:  
 
-Cài đặt Nodejs: (từ link: https://nodejs.org/dist/v20.19.5/node-v20.19.5-x64.msi) chạy và cài vào thư mục G:\nodejs  
+Cài đặt Nodejs: (từ link: https://nodejs.org/dist/v20.19.5/node-v20.19.5-x64.msi) chạy và cài vào thư mục D:BT\New\nodejs  
+<img width="614" height="479" alt="image" src="https://github.com/user-attachments/assets/d508b02b-9670-4a53-a9dc-e2afc1a473bb" />
 
 Cài đặt nodered:  
 Chạy các lệnh trên CMD: npm install -g --unsafe-perm node-red --prefix "D:\nodejs\nodered  
+<img width="800" height="295" alt="image" src="https://github.com/user-attachments/assets/465bba09-4a60-4ba3-8759-dcdbcaa0fc51" />
 
 download file: https://nssm.cc/release/nssm-2.24.zip, giải nén vào D:\nodejs\nodered<br>  
+<img width="881" height="155" alt="image" src="https://github.com/user-attachments/assets/dce727b3-629c-42a1-87e0-4d5738f124d0" />
 
 tạo file "D:\nodejs\nodered\run-nodered.cmd" với nội dung (5 dòng sau):  
+<img width="947" height="752" alt="image" src="https://github.com/user-attachments/assets/e44ae3cc-cd35-4911-8049-98aa987f801c" />
 
 mở cmd, chuyển đến thư mục: D:\nodejs\nodered  
+<img width="824" height="416" alt="image" src="https://github.com/user-attachments/assets/d5767dda-8958-4bb6-9e65-8d2e0f285169" />
 
 cài đặt service a1-nodered bằng lệnh: nssm.exe install a1-nodered "D:\nodejs\nodered\run-nodered.cmd"  
 
 chạy service a1-nodered bằng lệnh: nssm start a1-nodered  
-
-2.3. Tạo csdl với đề tài là đặt lịch khám online:  
-
-2.4. Cài đặt thư viện trên nodered:  
-
-truy cập url: http://localhost:1880 và cài các thư viện: node-red-contrib-mssql-plus, node-red-node-mysql, node-red-contrib-telegrambot, node-red-contrib-moment, node-red-contrib-influxdb, node-red-contrib-duckdns, node-red-contrib-cron-plus  
-
-Sửa file D:\nodejs\nodered\work\settings.js bằng nodepad quyền Admin: mật khẩu đã được em mã hóa qua tool: https://tms.tnut.edu.vn/pw.php  
-
-Chạy lại nodered qua CMD:  
-
-Truy cập lại url: http://localhost:1880 và đăng nhập với tài khoản admin:  
-
-2.5. tạo api back-end bằng nodered:  
-
-Test tìm kiếm qua url:  
-
-Test Get dữ liệu và nhập dữ liệu từ web vào database:  
-
-Get:  
- 
-Nhập:  
-
-2.7. Nhận xét bài làm của mình:  
