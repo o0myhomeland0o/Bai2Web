@@ -117,4 +117,17 @@ mở cmd, chuyển đến thư mục: D:\nodejs\nodered
 
 cài đặt service a1-nodered bằng lệnh: nssm.exe install a1-nodered "D:\nodejs\nodered\run-nodered.cmd"  
 tới bước này em xin lỗi thầy vì máy tính em như thế này nên em xin mong thầy cho em nếu thêm được thời gian để em tìm cách làm lại hay cài cái mới ạ  
-<img width="1094" height="496" alt="image" src="https://github.com/user-attachments/assets/b0990837-b266-4f9a-a8e1-20dfa46e492a" />
+<img width="1094" height="496" alt="image" src="https://github.com/user-attachments/assets/b0990837-b266-4f9a-a8e1-20dfa46e492a" />  
+
+nội dung sau đây em xin thầy được sửa thêm và các nội dung trên đã có từ ngày 31/10/2025 ạ  
+cài đặt service a1-nodered bằng lệnh: nssm.exe install a1-nodered "D:\nodejs\nodered\run-nodered.cmd"  
+<img width="709" height="483" alt="image" src="https://github.com/user-attachments/assets/5d25b433-f7ea-40be-b958-42ec18b92859" />  
+  
+  + mở cmd, chuyển đến thư mục: `D:\nodejs\nodered`  
+  + cài đặt service `a1-nodered` bằng lệnh: nssm.exe install a1-nodered "D:\nodejs\nodered\run-nodered.cmd"  
+  + chạy service `a1-nodered` bằng lệnh: `nssm start a1-nodered`
+<img width="768" height="628" alt="image" src="https://github.com/user-attachments/assets/afa88881-1560-4951-8d28-3664ab50f5fc" />
+
+
+  sau đây em sửa thêm nội dung và các nội dung từ dòng trên là từ ngày 31/10/2025 ạ  
+cài đặt service a1-nodered bằng lệnh: nssm.exe install a1-nodered "D:\nodejs\nodered\run-nodered.cmd"    
