@@ -128,6 +128,11 @@ cài đặt service a1-nodered bằng lệnh: nssm.exe install a1-nodered "D:\no
   + chạy service `a1-nodered` bằng lệnh: `nssm start a1-nodered`
 <img width="768" height="628" alt="image" src="https://github.com/user-attachments/assets/afa88881-1560-4951-8d28-3664ab50f5fc" />
 
+2.4. Cài đặt thư viện trên nodered:  
 
-  sau đây em sửa thêm nội dung và các nội dung từ dòng trên là từ ngày 31/10/2025 ạ  
-cài đặt service a1-nodered bằng lệnh: nssm.exe install a1-nodered "D:\nodejs\nodered\run-nodered.cmd"    
+Truy cập url: http://localhost:1880 và cài các thư viện: node-red-contrib-mssql-plus, node-red-node-mysql, node-red-contrib-telegrambot, node-red-contrib-moment, node-red-contrib-influxdb, node-red-contrib-duckdns, node-red-contrib-cron-plus  
+<img width="1293" height="883" alt="image" src="https://github.com/user-attachments/assets/b3f899db-05ae-4b9a-8a4c-791ad31aef48" />  
+Sửa file D:\nodejs\nodered\work\settings.js bằng nodepad quyền Admin: mật khẩu đã được mã hóa qua tool: https://tms.tnut.edu.vn/pw.php  
+<img width="812" height="213" alt="image" src="https://github.com/user-attachments/assets/882ad365-8c1b-460a-9f45-197468d462be" />  
+Chạy lại nodered qua CMD:  
+<img width="549" height="326" alt="image" src="https://github.com/user-attachments/assets/526f12cd-e63f-4aef-a53b-77a9d9f6d7a3" />
