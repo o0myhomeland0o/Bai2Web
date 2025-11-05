@@ -113,13 +113,8 @@ tạo file "D:\nodejs\nodered\run-nodered.cmd" với nội dung (5 dòng sau):
 <img width="947" height="752" alt="image" src="https://github.com/user-attachments/assets/e44ae3cc-cd35-4911-8049-98aa987f801c" />
 
 mở cmd, chuyển đến thư mục: D:\nodejs\nodered  
-<img width="824" height="416" alt="image" src="https://github.com/user-attachments/assets/d5767dda-8958-4bb6-9e65-8d2e0f285169" />
+<img width="824" height="416" alt="image" src="https://github.com/user-attachments/assets/d5767dda-8958-4bb6-9e65-8d2e0f285169" />  
 
-cài đặt service a1-nodered bằng lệnh: nssm.exe install a1-nodered "D:\nodejs\nodered\run-nodered.cmd"  
-tới bước này em xin lỗi thầy vì máy tính em như thế này nên em xin mong thầy cho em nếu thêm được thời gian để em tìm cách làm lại hay cài cái mới ạ  
-<img width="1094" height="496" alt="image" src="https://github.com/user-attachments/assets/b0990837-b266-4f9a-a8e1-20dfa46e492a" />  
-
-nội dung sau đây em xin thầy được sửa thêm và các nội dung trên đã có từ ngày 31/10/2025 ạ  
 cài đặt service a1-nodered bằng lệnh: nssm.exe install a1-nodered "D:\nodejs\nodered\run-nodered.cmd"  
 <img width="709" height="483" alt="image" src="https://github.com/user-attachments/assets/5d25b433-f7ea-40be-b958-42ec18b92859" />  
   
