@@ -122,13 +122,19 @@ cài đặt service a1-nodered bằng lệnh: nssm.exe install a1-nodered "D:\no
   + cài đặt service `a1-nodered` bằng lệnh: nssm.exe install a1-nodered "D:\nodejs\nodered\run-nodered.cmd"  
   + chạy service `a1-nodered` bằng lệnh: `nssm start a1-nodered`
 <img width="768" height="628" alt="image" src="https://github.com/user-attachments/assets/afa88881-1560-4951-8d28-3664ab50f5fc" />
-2.3. Tạo csdl SQL Server 2022:  
+2.3. Tạo csdl SQL Server 2022:
+    
 Database:  
-<img width="920" height="401" alt="image" src="https://github.com/user-attachments/assets/3d67c9a7-0496-4a86-85c7-9d1b6595dce6" />  
-Table và các thuộc tính:  
-<img width="660" height="268" alt="image" src="https://github.com/user-attachments/assets/e3c39d67-a5ca-4d55-b2ee-3f9659128432" />  
-Dữ liệu:  
-<img width="677" height="330" alt="image" src="https://github.com/user-attachments/assets/377020b5-1988-4f8a-83da-1887aa11a780" />  
+
+<img width="920" height="401" alt="image" src="https://github.com/user-attachments/assets/3d67c9a7-0496-4a86-85c7-9d1b6595dce6" />   
+
+Table và các thuộc tính:   
+
+<img width="660" height="268" alt="image" src="https://github.com/user-attachments/assets/e3c39d67-a5ca-4d55-b2ee-3f9659128432" />   
+
+Dữ liệu:   
+
+<img width="677" height="330" alt="image" src="https://github.com/user-attachments/assets/377020b5-1988-4f8a-83da-1887aa11a780" />   
 
 2.4. Cài đặt thư viện trên nodered:  
 
